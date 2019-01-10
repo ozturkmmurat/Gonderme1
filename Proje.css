@@ -1,0 +1,21 @@
+.Menü, .Menü2,.Menü3, .Menü4 {
+    float:left;
+    margin-left: 12%;
+    margin-top: 2%;
+    
+   
+}
+.Menüler {
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #e0e0e0;
+    height: 60px;
+    background-color: black;
+    color: aliceblue;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    font-size: px;
+}
+.Foto1 {
+    height: 60px;
+    position: relative;right: 1022px;
+}
