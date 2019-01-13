@@ -20,16 +20,16 @@
 }
 .Foto1 {
     height: 60px;
-    position: relative;right: 79%;
+    position: relative;right: 75%;
 }
 .Foto01 {
     height:60px;
- margin-left: 12%;
+ margin-left: 15.70%;
 }
 
 .Önerilenfilm2 {
   
-  height: 450px;
+  height: 70%;
   width: 101%;
   margin-top:-9%;
   border-style: solid;
@@ -42,7 +42,7 @@ margin-left: -1%;
 .Ö1 {
     height: 90%;
    margin-top:1.75%;
-   margin-left: 1%; 
+   margin-left: 2%; 
    width: 18%;
 }
 .Ö2,.Ö3,.Ö4,.Ö5{
@@ -139,7 +139,7 @@ border-color:#e5e5e5;
 border-width: 1px;
 height: 3%;
 width: 64%;
-margin-top:40px; 
+margin-top:1%; 
 font-size: "Clarendon Condensed";
 background-color: #e5e5e5;
 }
@@ -249,4 +249,306 @@ footer {
     color:#fff;
     text-decoration: underline;
   }
-  
+ 
+    
+    
+    table, td, th {
+        border: 2px solid #e5e5e5;
+        margin-top: 0%;
+    width: 20%;
+    height: 58px;
+
+    color: black;
+    
+
+    }
+
+    table {
+        border-collapse: collapse;
+     float:right;
+
+    }
+    .Ana {
+        color:black;
+      text-decoration: none;
+    margin-left:-30%;
+    
+
+    }
+    .Sinemakatılım {
+ 
+        color: black;
+        font-size:35px;
+
+background-color: #fff;
+height: 20%;
+padding-top:1%;
+    }
+    .Filmfoto {
+        height:16%;
+        float: left;
+     
+    }
+    .Aquaman {
+        float: left;
+       margin-left: 20px;
+       margin-top: 15px;
+        
+    }
+    .Aquaman img{
+        height:78%;
+    }
+.Filmler {
+    background-color: black;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    height:55.75%;
+    width: 80%;
+    position:absolute;z-index:2;
+    
+}
+.Aquamanaçık{
+    color: #fff;
+}
+.Venom{
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+.Venom img{
+    height: 30%px;
+    width: 200px;
+}
+.Filmana {
+    clear: both;
+}
+.Venomaçık  {
+    color: #fff;
+    padding: 0 00% 0 0px;
+margin-left: 0%;
+    margin-bottom: 14px;
+}
+.Avengers{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.Avengers img{
+    height: 30%px;
+    width: 200px;
+}
+.filmleryazi{
+    float: left;
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.Siyahkısım {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: black;
+    height:41%;
+    width: 100%;
+    margin-top: 29%;
+   
+   
+    
+}
+.F1,.F2 {
+    height: 100%;
+margin-left: 1%;
+float:left;
+margin-top: 0%;
+
+}
+.F3{
+    height: 97%;
+    margin-left;
+    float:left;
+}
+.F4  {
+    height: 93%;
+    float:left;
+    margin-left: 1%;
+}
+.Siyahkısım2 {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: black;
+    height:43%;
+    width: 100%;
+    margin-top: 0%;}
+    .F5 {
+        height:90%;
+        float:left;
+       margin-top: 1%;
+        margin-left: 1%;
+        width: 15.50%;
+     
+    }
+    .filmleryazi2{
+        
+        float: left;
+        font-size: 14px;
+        color: white;
+        margin-top: 17px;
+        margin-left: 10px
+    }
+    .F6  {
+        height: 93%;
+    float:left;
+    margin-left: 0.10%;
+    margin-top: 1%;
+
+         }
+         .F7 {
+            height: 95%;
+            float:left;
+            margin-left: 0.10%;
+            margin-top: 1%;
+         }
+         .Fotoo1 {
+            height: 60px;
+            position: relative;right: 77%;
+         }
+         .Foto001 {
+            height:60px;
+         margin-left: 13.95%;
+        }
+        .Fotooo1 {
+            height: 60px;
+            position: relative;right: 75%;
+         }
+         .Foto002 {
+            height:60px;
+         margin-left: 15.75%;
+        }
+        .F8 {
+            width: 13.50%;
+            float:left;
+            height: 90%;
+            margin-left: 1%;
+            margin-top: 1%;
+            
+        }
+        .F9 {
+            height: 100%;
+margin-left: 1%;
+float:left;
+margin-top: 0%
+
+        }
+        .Aquamankatıl {
+            height: 50%;
+            margin-top: 2%;
+            margin-left: 15%;
+        }
+        .Aquamanbilgiler p {
+            border-style: solid;
+            border-color:  rgb(242, 243, 248);
+            height: 5%;
+            width: 35%;
+            float:right;
+            margin-right:49%;
+            margin-top: 3%;
+            background-color:  rgb(242, 243, 248);
+            color:#172434;
+
+        }
+        .Aquamanbilgiler2 {
+            border-style: solid;
+            border-color: rgb(242, 243, 248);
+color: #616161;
+            height:23%;
+            width: 35%;
+            float:right;
+            margin-right: 49%;
+            margin-top: 0%;
+            background-color:  rgb(242, 243, 248);
+                }
+                .Aquamanfragman {
+margin-top: 0%;
+margin-left: 15%;
+
+                }
+                .Fotoyan {
+                    float:right;
+                    margin-right:  63%;
+                    margin-top: 3%;
+                }
+                .Fotoyan2 {
+                    float:right;
+                    margin-right:  41%;
+                    margin-top: -22%;
+                    color: #0652DD;
+
+                }
+                .Fotoyan3 {
+                    float:right;
+                    margin-right: 32%;
+                    margin-top: -24%;
+                    color: #4A4A4A;
+                }
+                .Fotoyan4 {
+                    float:right;
+                    margin-right: 31.60%;
+                    margin-top: -22%;
+                    color: #1B1B1B;
+                    
+                }
+                .Fotoyan5 {
+                    float:right;
+                    margin-right: 34.90%;
+                    margin-top: -20%;
+                    color: #1B1B1B;
+
+                }
+                .Fotoyan6 {
+                    float:right;
+                    margin-right: 28%;
+                    margin-top: -18%;
+                    color: #0652DD;
+                }
+                .Filmuygunluk
+                {
+                   margin-left: 36%;
+                   margin-top: -20%;
+                }
+                .Aquamanoyuncular {
+                    margin-left: 20%;
+                    margin-top: -8%;
+                }
+                .Fotoyan:hover,.Fotoyan2:hover,.Fotoyan3:hover,.Fotoyan4:hover,.Fotoyan5:hover,.Fotoyan6:hover {
+                    text-decoration:underline
+                }
+                .Yazı {
+                    margin-left: 16%;
+                    color: #1B1B1B;
+                }
+                .Yazı2 {
+                    margin-left: 22%;
+                    margin-top: -15%;
+                   
+                color: #0652DD;
+          
+                }
+                .Oyuncular {
+                    margin-left:0%;
+                    font:50px; 
+                    margin-bottom: 60%;
+                }
+                .Fotoyan06 {
+                    float:right;
+                    margin-right: 33%;
+                    margin-top: -18%;
+                    color: #0652DD;
+                    
+                }
+                .Fotoyan06:hover {
+                    text-decoration:underline
+                }
