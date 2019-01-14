@@ -552,3 +552,35 @@ margin-left: 15%;
                 .Fotoyan06:hover {
                     text-decoration:underline
                 }
+                .Fotoyan02 {
+                    float:right;
+                    margin-right:  54%;
+                    margin-top: -22%;
+                    color: #0652DD;
+                }
+                .Fotoyan002 {
+                    float:right;
+                    margin-right:  57%;
+                    margin-top: -22%;
+                    color: #0652DD;
+                }
+                .Fotoyan0002 {
+                    float:right;
+                    margin-right:  61%;
+                    margin-top: -22%;
+                    color: #0652DD; 
+                }
+                .Fotoyan006 {
+                    float:right;
+                    margin-right: 32%;
+                    margin-top: -18%;
+                    color: #0652DD; }
+                    .Fotoyan006:hover {
+                        text-decoration: underline;
+                    }
+                    .Fotoyan00002 {
+                        float:right;
+                        margin-right:  45%;
+                        margin-top: -22%;
+                        color: #0652DD;    
+                    }
