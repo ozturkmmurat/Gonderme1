@@ -471,6 +471,33 @@ color: #616161;
             margin-top: 0%;
             background-color:  rgb(242, 243, 248);
                 }
+                .Aquamanbilgiler01 p {
+                    border-style: solid;
+                    border-color:  rgb(242, 243, 248);
+                    height: 5%;
+                    width: 35%;
+                    float:right;
+                    margin-right:30%;
+                    margin-top:-11%;
+                    background-color:  rgb(242, 243, 248);
+                    color:#172434;
+        
+                }
+                .Aquamanbilgiler02 {
+                    border-style: solid;
+                    border-color: rgb(242, 243, 248);
+        color: #616161;
+                    height:23%;
+                    width: 35%;
+                    float:right;
+                    margin-right: 30%;
+                    margin-top: -7%;
+                    background-color:  rgb(242, 243, 248);
+                        }
+                        .Aquamanoyuncular02{
+                            margin-top: 10%;
+                            margin-left:7%;
+                        }
                 .Aquamanfragman {
 margin-top: 0%;
 margin-left: 15%;
@@ -481,6 +508,11 @@ margin-left: 15%;
                     margin-right:  63%;
                     margin-top: 3%;
                 }
+                .Fotoyan01 {
+                    float:right;
+                    margin-right:  55%;
+                    margin-top: 3%;
+                }
                 .Fotoyan2 {
                     float:right;
                     margin-right:  41%;
@@ -488,6 +520,35 @@ margin-left: 15%;
                     color: #0652DD;
 
                 }
+                .Fotoyan00002:hover {
+                    text-decoration: underline;
+                }
+                .Fotoyan7{
+                
+                        float:right;
+                        margin-right:  58%;
+                        margin-top: -22%;
+                        color: #0652DD;
+                }
+                .Fotoyan07 {
+                    float:right;
+                        margin-right:  49%;
+                        margin-top: -22%;
+                        color: #0652DD;
+                }
+                .Fotoyan70 {
+                    float:right;
+                        margin-right:  48%;
+                        margin-top: -22%;
+                        color: #0652DD;
+                }
+                .Fotoyan007 {
+                    float:right;
+                        margin-right:  51%;
+                        margin-top: -22%;
+                        color: #0652DD;
+                }
+
                 .Fotoyan3 {
                     float:right;
                     margin-right: 32%;
@@ -508,11 +569,91 @@ margin-left: 15%;
                     color: #1B1B1B;
 
                 }
+             
                 .Fotoyan6 {
                     float:right;
                     margin-right: 28%;
                     margin-top: -18%;
                     color: #0652DD;
+                }
+                .Fotoyan8{
+                    float:right;
+                    margin-right: 28%;
+                    margin-top: -18%;
+                    color: #0652DD;  
+                }
+                .Fotoyan008{
+                    float:right;
+                    margin-right: 23%;
+                    margin-top: -18%;
+                    color: #0652DD;  
+                }
+                .Fotoyan800 {
+                    float:right;
+                    margin-right: 41%;
+                    margin-top: -18%;
+                    color: #0652DD;   
+                }
+                .Fotoyan08{
+                    float:right;
+                    margin-right: 31%;
+                    margin-top: -18%;
+                    color: #0652DD; 
+                }
+                .Fotoyan80 {
+                    float:right;
+                    margin-right: 3%;
+                    margin-top: -18%;
+                    color: #0652DD; 
+                }
+                .Fotoyan9 {
+                    float:right;
+                    margin-right: 34%;
+                    margin-top: -18%;
+                    color: #0652DD; 
+                }
+                .Fotoyan0008{
+                    float:right;
+                    margin-right: 38%;
+                    margin-top: -18%;
+                    color: #0652DD; 
+                }
+                .Fotoyan00008{
+                    float:right;
+                    margin-right: 39%;
+                    margin-top: -18%;
+                    color: #0652DD; 
+                }
+                .Fotoyan04{
+                    float:right;
+                    margin-right: %;
+                    margin-top: -18%;
+                    color: #0652DD;  
+                }
+                .Fotoyan05 {
+                    float:right;
+                    margin-right: 41%;
+                    margin-top: -20%;
+                    color: #1B1B1B;
+                }
+                .Fotoyan04 {
+                    float:right;
+                    margin-right: 33.60%;
+                    margin-top: -22%;
+                    color: #1B1B1B;
+                    
+                }
+                .Fotoyan03 {
+                    float:right;
+                    margin-right: 37%;
+                    margin-top: -24%;
+                    color: #4A4A4A;
+                }
+                .Fotoyan04:hover {
+                    text-decoration: underline;
+                }
+                .Fotoyan8:hover {
+                    text-decoration: underline;
                 }
                 .Filmuygunluk
                 {
@@ -523,6 +664,9 @@ margin-left: 15%;
                     margin-left: 20%;
                     margin-top: -8%;
                 }
+                .Aquamanoyuncular2 {
+                    margin-left: 8%;
+                    margin-top: -8%;}
                 .Fotoyan:hover,.Fotoyan2:hover,.Fotoyan3:hover,.Fotoyan4:hover,.Fotoyan5:hover,.Fotoyan6:hover {
                     text-decoration:underline
                 }
@@ -563,6 +707,20 @@ margin-left: 15%;
                     margin-right:  57%;
                     margin-top: -22%;
                     color: #0652DD;
+                }
+                .Fotoyan004 {
+                    float:right;
+                    margin-right: 38.60%;
+                    margin-top: -22%;
+                    color: #1B1B1B;
+                    
+                }
+                .Fotoyan0004 {
+                    float:right;
+                    margin-right: 36%;
+                    margin-top: -22%;
+                    color: #1B1B1B;
+                    
                 }
                 .Fotoyan0002 {
                     float:right;
