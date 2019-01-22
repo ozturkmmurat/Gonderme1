@@ -2,23 +2,27 @@
 
 <head>
 <link rel ="stylesheet"href="Proje.css"/>
+<script src ="Üyeigirs.js"></script>
 
 
 </head>
 
-<body>
+<body onload="sehirlerigoster1()">
 <div class ="Menüler">
         <div class ="Menü"> <i class="fas fa-chevron-down"></i><a href ="Proje.html" style ="color:aliceblue; text-decoration: none;">Anasayfa</a></div>
 <div class ="Menü2"> <i class="fas fa-chevron-down"></i><a href ="Tiyatrokatılım.html" style ="color:aliceblue; text-decoration: none;">Tiyatro Katılım</a></div>
 <div class = "Menü3"> <i class="fas fa-chevron-down"></i><a href ="Sinemakatılım.html" style ="color:aliceblue; text-decoration: none;">Sinema Katılım</a></div>
-<div class ="Menü4">Üye ol<i class="fas fa-chevron-down"></i></div>
+<div class = "Menü4"> <i class="fas fa-chevron-down"></i><a href ="Üyegiris.html" style ="color:aliceblue; text-decoration: none;">Üye Girişi</a></div>
 <img src ="Tiyatrosinema.jpg" class="Fotooo1">
 <img src="Tiyatrosinema3.jpg" class ="Foto002">
 </div>
 <img  src ="Tiyatrosinema.jpg" class="Filmfoto">
 <div class ="Sinemakatılım">Tiyatro Ve Katılım </div>
 
-
+<form method="POST">
+                <select id="ulkeler" onchange="sehirleriGetir()" style="width: 100%; "></select>
+                
+              </form>
 <div class ="Filmkategori">
 <table>     
 <tr>   

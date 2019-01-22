@@ -8,7 +8,7 @@
 
 .Menüler {
     border-style: solid;
-    border-width: 2px;
+    border-width:0 ;
     border-color: black;
     height: 60px;
     background-color:black;
@@ -19,12 +19,12 @@
   
 }
 .Foto1 {
-    height: 60px;
-    position: relative;right: 75%;
+    height: 100%;
+    position: relative;right: 77.20%;
 }
 .Foto01 {
-    height:60px;
- margin-left: 15.70%;
+    height:100%;
+ margin-left: 13.60%;
 }
 
 .Önerilenfilm2 {
@@ -33,7 +33,7 @@
   width: 101%;
   margin-top:-9%;
   border-style: solid;
-  border-width: 5px;
+  border-width: 1%;
 border-color: black;
 background-color: black;
 margin-left: -1%;
@@ -67,7 +67,7 @@ margin-left: -1%;
  .Önerilenfilm  {
       height: 17%;
     margin-top: 1%;
-position: relative; left:132px;;
+position: relative; left:0px;;
   width: 100%;
   background-color: #1F0A0A;
   color: #e0e0e0;
@@ -78,7 +78,7 @@ position: relative; left:132px;;
  .ÖnerilenTiyatrolar {
     height: 17%;
     margin-top: 1%;
-position: relative; left:;;
+position: relative; left;
   width: 100%;
   background-color: #a0a0a0; *// açık gri 
   color: #e0e0e0;
@@ -110,7 +110,7 @@ position: relative; left:;;
  }
  .Önerilenfilm2ana{
      clear: both;
-     margin-bottom:-20px;
+     margin-bottom:-1%;
  }
  .Önerilenfilmler{
     float: left;
@@ -136,10 +136,10 @@ position: relative; left:;;
     padding: 3px 6px;
 border-style: solid;
 border-color:#e5e5e5;
-border-width: 1px;
+border-width: 0px;
 height: 3%;
 width: 64%;
-margin-top:1%; 
+margin-top:1.50%; 
 font-size: "Clarendon Condensed";
 background-color: #e5e5e5;
 }
@@ -149,10 +149,10 @@ background-color: #e5e5e5;
     padding: 3px 6px;
     border-style: solid;
 border-color:#e5e5e5;
-border-width: 1px;
+border-width: 0;
 height: 15%;
 width: 64%;
-margin-top:0px; 
+margin-top:0; 
 font-size: "Clarendon Condensed";
 background-color: #e5e5e5;
 }
@@ -179,19 +179,20 @@ border-color:#e5e5e5;
 border-width: 1px;
 height: 15%;
 width: 64%;
-margin-top:-138px;
+margin-top:-10.80%;
 margin-left: 35%;
 font-size: "Clarendon Condensed";
 background-color: #e5e5e5
 }
 Body {
  background-color: #F0F8FF;
+ 
 }
 .İnstaface {
     border-style: solid;
     border-color: #e5e5e5;
-    border-width: 2px;
-    margin-top: -23px;
+    border-width: 1%;
+    margin-top: 0;
     background-color: #e5e5e5;
    
 }
@@ -256,7 +257,7 @@ footer {
         border: 2px solid #e5e5e5;
         margin-top: 0%;
     width: 20%;
-    height: 58px;
+    height: 55px;
 
     color: black;
     
@@ -291,7 +292,7 @@ padding-top:1%;
     }
     .Aquaman {
         float: left;
-       margin-left: 20px;
+       margin-left: 1%;
        margin-top: 15px;
         
     }
@@ -301,9 +302,9 @@ padding-top:1%;
 .Filmler {
     background-color: black;
     border-style: solid;
-    border-width: 4px;
+    border-width:1%;
     border-color: black;
-    height:55.75%;
+    height:50.35%;
     width: 80%;
     position:absolute;z-index:2;
     
@@ -318,7 +319,7 @@ padding-top:1%;
     
 }
 .Venom img{
-    height: 30%px;
+    height: 80%;
     width: 200px;
 }
 .Filmana {
@@ -336,15 +337,15 @@ margin-left: 0%;
     margin-left: 15px;
 }
 .Avengers img{
-    height: 30%px;
+    height: 80%;
     width: 200px;
 }
 .filmleryazi{
     float: left;
     font-size: 14px;
     color: white;
-    margin-top: 10px;
-    margin-left: 10px;
+    margin-top: 1%;
+    margin-left: 0.50%;
 }
 .Siyahkısım {
     border-style: solid;
@@ -396,8 +397,8 @@ margin-top: 0%;
         float: left;
         font-size: 14px;
         color: white;
-        margin-top: 17px;
-        margin-left: 10px
+        margin-top: 1%;
+        margin-left: 1%;
     }
     .F6  {
         height: 93%;
@@ -413,21 +414,32 @@ margin-top: 0%;
             margin-top: 1%;
          }
          .Fotoo1 {
-            height: 60px;
-            position: relative;right: 77%;
+            height: 100%;
+            position: relative;right: 78.99%;
          }
          .Foto001 {
-            height:60px;
-         margin-left: 13.95%;
+            height:100%;
+         margin-left: 11.80%;
         }
         .Fotooo1 {
-            height: 60px;
-            position: relative;right: 75%;
+            height: 100%;
+            position: relative;right: 77.20%;
          }
          .Foto002 {
-            height:60px;
-         margin-left: 15.75%;
+            height:100%;
+         margin-left: 13.60%;
         }
+        .Fotoo11
+        {
+            height: 100%;
+            position: relative;right: 78.99%; 
+        }
+        .Foto0022 {
+            height:100%;
+            margin-left: 11.80%;
+        }
+    
+        
         .F8 {
             width: 13.50%;
             float:left;
@@ -446,7 +458,7 @@ margin-top: 0%
         .Aquamankatıl {
             height: 50%;
             margin-top: 2%;
-            margin-left: 15%;
+            margin-left: 14%;
         }
         .Aquamanbilgiler p {
             border-style: solid;
@@ -683,7 +695,7 @@ margin-left: 15%;
                 }
                 .Oyuncular {
                     margin-left:0%;
-                    font:50px; 
+                    font:100px; 
                     margin-bottom: 60%;
                 }
                 .Fotoyan06 {
@@ -742,3 +754,48 @@ margin-left: 15%;
                         margin-top: -22%;
                         color: #0652DD;    
                     }
+                    .baslik {
+background-color: #0652DD;
+
+                    }
+
+
+#kutu {
+   background: #ccc; 
+   border: 1px solid #555;
+   width: 13%;
+   height: 10%;
+   line-height: 100px;
+   text-align: center;
+   cursor: pointer;
+font-size: 18px;
+   margin-left: 67%;
+    
+}
+#kutu:focus {
+
+background: #0652DD;
+}
+#kutu a {
+margin-bottom: -50%;
+
+}
+
+.Notalma {
+    border-color: #262626;
+    border-width: 1px;
+    background: #ccc;
+    height:5%;
+    width:10%;
+    margin-left: 30%;
+    position: relative;
+    bottom: 11%;
+    padding: 0 0 0 0 ;
+    color:aliceblue; 
+}
+.Notalma2 {
+  padding: 10px;
+}
+.Notalma:hover{
+    text-decoration: none;
+}

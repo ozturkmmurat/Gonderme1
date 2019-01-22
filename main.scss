@@ -1,0 +1,273 @@
+@import compass
+
+$silver: #dbdbdb
+$serif: 'Alegreya', serif
+$sans-serif: 'Archivo Narrow', helvetica, sans-serif
+
+=border-radius($radii: 5px)
+  border-radius: $radii
+  background-clip: padding-box
+
+=background-size($val)
+  background-size: #{ $val }
+
+=panel-header-background
+  background: linear-gradient(top, rgba(255,255,255,0.03) 50%, transparent 52%), linear-gradient(top, #29364A 50%, transparent 52%) left top
+  background-size: auto, 125px 125px
+  box-shadow: inset 0px 1px 2px rgba(255, 255, 255, .2)
+
+*
+  box-sizing: border-box
+
+html
+  height: 100%
+  
+
+
+body
+  min-height: 100%
+  margin: 0
+  font: 14px/1.4 $serif
+  color: $silver
+  
+  padding: 10px
+  -webkit-font-smoothing: antialiased
+  background-color: #3d484a
+  background-image: linear-gradient(to top left, #371659, #D3425B)
+  +background-size('auto, cover')
+  background-attachment: fixed
+
+[class*="span-"]
+  padding: 10px
+
+a
+  color: #29D9D8
+  text-decoration: none
+
+
+header
+  min-height: 100px
+
+.logo
+  > *
+    display: inline
+
+  h1
+    font:
+      family: "Sacramento"
+      size: 4em
+      weight: normal
+    color: #f5f7c6
+
+  h2
+    position: relative
+    top: -0.8em
+    font:
+      family: $sans-serif
+      size: 1.8em
+      weight: normal
+    color: #fff
+    text-transform: uppercase
+    vertical-align: super
+
+nav ul
+  margin: 0
+  padding: 0
+  list-style: none
+
+  li
+    display: inline
+    font-size: 0px
+
+    a
+      display: inline-block
+      font-size: 14px
+
+.breadcrumb-nav
+  padding: 10px 20px
+  background: rgba(0,0,0,0.45)
+  +border-radius
+
+.session-nav
+  text-align: right
+
+  ul li
+    a
+      margin-right: 1px
+      padding: 8px 14px
+      font-size: 14px
+      color: #fff
+      background: rgba(0,0,0,0.35)
+
+    &:first-child a
+      +border-radius(5px 0px 0px 5px)
+
+    &:last-child a
+      +border-radius(0px 5px 5px 0px)
+
+.application-nav
+  overflow: hidden
+  position: absolute
+  left: 0
+  +border-radius(0px 5px 5px 0px)
+
+  a
+    display: block
+    padding: 10px 20px
+    margin-bottom: 1px
+    font:
+      family: $sans-serif
+      size: 1rem
+    color: fade-out(#fff, 0.3)
+    text-transform: uppercase
+    background: fade-out(#000, 0.5)
+
+    span
+      margin-right: 4px
+      padding-right: 4px
+
+  li:last-child a
+    padding-bottom: 10px
+    +border-radius(0px 0px 5px 0px)
+
+  li:first-child a
+    padding-top: 10px
+    +border-radius(0px 5px 0px 0px)
+
+  @media screen and (max-width: 1260px)
+    .text
+      display: none
+
+
+section#main-content
+
+
+.panel
+  +border-radius
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.15), 0px 0px 3px rgba(0,0,0,0.5)
+
+  .panel-header
+    display: block
+    padding: 10px 20px
+    font:
+      family: $sans-serif
+      size: 1.5em
+      weight: normal
+    text:
+      transform: uppercase
+      shadow: 0px 0px 15px #000
+    line-height: 1.2
+    letter-spacing: -0.03em
+    +panel-header-background
+    +border-radius(5px 5px 0px 0px)
+
+
+    .hint
+      display: block
+      font:
+        size: 0.8rem
+        family: $serif
+        weight: lighter
+      color: darken($silver, 20%)
+      color: rgba(255,255,255,0.5)
+      text-transform: none
+
+  .panel-body
+    padding: 20px
+    background: $silver
+    border-top: none
+    +border-radius(0px 0px 5px 5px)
+
+    input, textarea
+      width: 100%
+      max-width: 100%
+      padding: 10px
+      font:
+        size: 1.1em
+        family: sans-serif
+        weight: normal
+      line-height: 1.5
+      border: 1px solid darken($silver, 10%)
+
+      &:focus
+        outline: none
+
+input, textarea
+  margin: 0
+
+.wysiwyg
+  margin-bottom: 5px
+  .fa
+    display: inline-block
+    width: 32px
+    padding: 2px
+    font-size: 16px
+    color: rgba(0,0,0,0.8)
+    text-align: center
+    border: 1px solid #999
+    +border-radius
+    background: #e1e1e1
+    background: -webkit-linear-gradient(#fff, #e1e1e1)
+    cursor: pointer
+
+@media screen and (max-width: 800px)  
+  header
+    .logo, .session-nav
+      float: left
+
+    .logo
+      width: 50%
+
+      h1
+        font-size: 2.5em
+
+      h2
+        font-size: 1em
+
+    .session-nav
+      width: 50%
+
+  .application-nav
+    display: none
+
+@media screen and (min-width: 801px)
+  html
+    padding: 20px
+    padding-top: 0
+
+  .container
+    max-width: 940px
+    margin: 0 auto
+
+  [class*="span-"]
+    float: left
+
+  .span-3
+    width: 25%
+
+  .span-4
+    width: 33.333333333%
+
+  .span-6
+    width: 50%
+  .span-12
+    width: 100%;
+
+  textarea
+    min-height: 200px;
+
+  .show-menu
+    display: none;
+
+  .account-settings a
+    +border-radius(5px 0px 0px 5px)
+
+  .session-nav
+    position: relative
+    top: 30px;
+
+
+@media screen and (max-width: 1100px) and (min-width: 801px)
+  html
+    padding-left: 80px
+    
